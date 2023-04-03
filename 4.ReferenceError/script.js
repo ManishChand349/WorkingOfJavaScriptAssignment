@@ -1,10 +1,12 @@
 {
   console.log(a); 
-  let a = 1;
-  
+  var a = 1;
+
   console.log(b); 
   let b = 2;
 
   console.log(c); 
-  let c = 3;
+  const c = 3;
+
+  console.log(a, b, c);
 }
